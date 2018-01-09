@@ -1,0 +1,180 @@
+.text-left {
+	text-align: left;
+}
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+.text-justify {
+	text-align: justify;
+}
+
+.hide {
+	display: none;
+}
+.show {
+	display: block;
+}
+
+.pagination a {
+	cursor: pointer;
+}
+
+h2.nav-tab-wrapper {
+	margin-bottom: 15px !important;
+}
+#background-worker .pagination .page-numbers {
+	border: 1px solid #00a0d2;
+	padding: 6px 10px;
+	border-radius: 2px;
+	background-color: #00a0d2;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+}
+
+#background-worker .pagination .page-numbers.current,
+#background-worker .pagination .page-numbers:hover {
+	background-color: #fbfbfb;
+	color: #00a0d2;
+}
+#aoe-order-list-table table .email_sent,
+#aoe-order-list-table table .recovered {
+	position: relative;
+	display: inline-block;
+	width: 24px;
+}
+#aoe-order-list-table table .email_sent .dashicons,
+#aoe-order-list-table table .recovered .dashicons {
+	font-size: 24px;
+	line-height: 24px;
+	height: 24px;
+}
+#aoe-order-list-table table .email_sent .dashicons-yes,
+#aoe-order-list-table table .recovered .dashicons-yes {
+	color: #82B441;
+}
+#aoe-order-list-table table .email_sent .dashicons-no-alt,
+#aoe-order-list-table table .recovered .dashicons-no-alt {
+	color: #BF1F11;
+}
+#aoe-order-list-table table .recovered .dashicons-clock {
+	color: #FDAB26;
+}
+#aoe-setting * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#aoe-setting .form-section {
+	background-color: #fff;
+	margin-bottom: 15px;
+	font-size: 0;
+	border: 1px solid #eee;
+}
+#aoe-setting .form-section .form-section-title {
+	padding: 10px;
+	font-size: 13px;
+	margin: 0;
+	border-bottom: 1px solid #eee;
+}
+#aoe-setting .form-section .input-row {
+	font-size: 0;
+	padding-top: 10px;
+	padding: 15px;
+}
+#aoe-setting .form-section .input-row > * {
+	display: inline-block;
+	font-size: 13px;
+	padding-right: 15px;
+	vertical-align: top;
+}
+#aoe-setting .form-section .input-row > label {
+	width: 20%;
+}
+#aoe-setting .form-section .input-field {
+	width: 30%;
+}
+#aoe-setting .form-section .input-field-full {
+	width: 50%;
+}
+#aoe-setting .form-section .input-field input[type=text] {
+	width: 100%;
+}
+#aoe-setting .form-section .helper {
+	width: 50%;
+	opacity: 0.7;
+}
+#aoe-setting .form-section .helper-full {
+	padding-top: 30px;
+}
+#aoe-setting .code-editor {
+	height: 200px;
+	border: 1px solid #ddd;
+}
+#aoe-setting .wp-switch-editor {
+	height: 28px;
+}
+#aoe-report .report-wrapper {
+	margin-top: 15px;
+	max-width: 400px;
+}
+#aoe-report .report-wrapper .notice {
+	padding: 15px 20px;
+}
+#aoe-report .report-wrapper .report-table {
+	background-color: #fff;
+	padding: 10px 20px;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+#aoe-report .report-wrapper .label {
+	padding: 5px 30px 5px 0;
+}
+#aoe-report .report-wrapper .value {
+	padding: 5px 0;
+	font-weight: 700;
+}
+table.abandonedorders {
+	table-layout: auto;
+}
+table.abandonedorders .action {
+	position: relative;
+	padding: 0 4px;
+}
+table.abandonedorders .action .dashicons {
+	line-height: 28px;
+	height: 28px;
+}
+.aoe-tooltip {
+	position: absolute;
+	font-size: 10px;
+	background-color: #444;
+	color: #fff;
+	padding: 5px;
+	line-height: 15px;
+	display: none;
+	margin-top: 5px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	z-index: 99999;
+	white-space: nowrap;
+}
+.aoe-tooltip:before {
+	content: '';
+	position: absolute;
+	left: 50%;
+	margin-left: -4px;
+	border-width: 0 4px 6px;
+	border-style: solid;
+	border-color: #444 transparent;
+	top: -6px;
+	display: block;
+}
+*:hover > .aoe-tooltip {
+	display: block;
+}

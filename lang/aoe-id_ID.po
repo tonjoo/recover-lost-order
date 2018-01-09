@@ -1,0 +1,372 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-04 10:55+0000\n"
+"PO-Revision-Date: 2017-12-04 17:58+0700\n"
+"Language-Team: Indonesian\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"Last-Translator: admin <gama@tonjoo.com>\n"
+"Language: id_ID\n"
+
+#: templates/admin/page-report.php:27
+msgid "Recovered Order"
+msgstr ""
+
+#: templates/admin/page-report.php:31
+msgid "Total Recovered Order"
+msgstr ""
+
+#: templates/admin/page-setting.php:43
+msgid "Sent recovery email on recovered order"
+msgstr "Kirim email notifikasi pada recovered order"
+
+#: templates/admin/page-setting.php:48
+msgid ""
+"If turned off (default), only new order will get abandoned email "
+"notification. When turned on all abandoned order (new and recovery) will get "
+"an abandoned order email notification."
+msgstr ""
+"Jika diset off (default), hanya abandoned order baru yang akan mendapat "
+"email notifikasi. Jika diset on, maka semua abandoned order (baik baru "
+"maupun recovery) akan mendapatkan email notifikasi."
+
+#: templates/admin/page-setting.php:70
+msgid "Debug Mode"
+msgstr "Mode Debug"
+
+#: templates/admin/page-setting.php:75
+msgid "Enable debug mode?"
+msgstr "Aktifkan mode debug?"
+
+#. Description of the plugin
+msgid ""
+"Automatically sent email for user who abandon their order (did not complete "
+"payment)"
+msgstr ""
+"Plugin untuk mengirim email notifikasi ke pengguna yang tidak menyelesaikan "
+"orderan"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://www.tonjoostudio.com/"
+msgstr ""
+
+#. Author of the plugin
+msgid "tonjoo"
+msgstr ""
+
+#: admin-page.php:44 inc/class-aoe-list-table.php:30
+#: templates/admin/page-dashboard.php:4 templates/admin/page-report.php:4
+#: templates/admin/page-setting.php:4
+msgid "Abandoned Orders"
+msgstr "Abandoned Order"
+
+#: admin-page.php:44
+msgid "Orders"
+msgstr "Orders"
+
+#: admin-page.php:45 templates/admin/page-report.php:2
+msgid "Abandoned Order Report"
+msgstr "Laporan Abandoned Order"
+
+#: admin-page.php:45 templates/admin/page-dashboard.php:5
+#: templates/admin/page-report.php:5 templates/admin/page-setting.php:5
+msgid "Report"
+msgstr "Laporan"
+
+#: admin-page.php:46
+msgid "Abandoned Order Settings"
+msgstr "Pengaturan Abandoned Order"
+
+#: admin-page.php:46 templates/admin/page-dashboard.php:6
+#: templates/admin/page-report.php:6 templates/admin/page-setting.php:6
+msgid "Settings"
+msgstr "Pengaturan"
+
+#: admin-page.php:56
+msgid "Orders Per Page"
+msgstr "Order per Halaman"
+
+#: admin-page.php:125
+msgid "Settings Updated"
+msgstr "Pengaturan Berhasil Disimpan"
+
+#: admin-page.php:136
+msgid "Email sent!"
+msgstr "Emal berhasil dikirim!"
+
+#: admin-page.php:138
+msgid "Email failed to send."
+msgstr "Email gagal terkirim."
+
+#: admin-page.php:147 templates/admin/page-dashboard.php:2
+msgid "Abandoned Order List"
+msgstr "Daftar Abandoned Order"
+
+#: admin-page.php:150
+msgid "Abandoned order plugin needs Woocommerce to be active."
+msgstr "Abandoned Order mengharuskan plugin Woocommerce dalam kedaan aktif."
+
+#: inc/class-aoe-list-table.php:29 inc/class-aoe-mailer.php:12
+#: templates/admin/page-report.php:23
+msgid "Abandoned Order"
+msgstr "Abandoned Order"
+
+#: inc/class-aoe-list-table.php:58
+msgid "Order ID"
+msgstr "Order ID"
+
+#: inc/class-aoe-list-table.php:59
+msgid "Total"
+msgstr "Total"
+
+#: inc/class-aoe-list-table.php:60
+msgid "Payment"
+msgstr "Pembayaran"
+
+#: inc/class-aoe-list-table.php:61
+msgid "User"
+msgstr "User"
+
+#: inc/class-aoe-list-table.php:62
+msgid "Date"
+msgstr "Tanggal"
+
+#: inc/class-aoe-list-table.php:63
+msgid "Email Sent"
+msgstr "Email Terkirim"
+
+#: inc/class-aoe-list-table.php:64 inc/class-aoe-list-table.php:212
+#: inc/class-aoe-list-table.php:228
+msgid "Recovered"
+msgstr "Dipulihkan"
+
+#: inc/class-aoe-list-table.php:65
+msgid "Actions"
+msgstr "Aksi"
+
+#: inc/class-aoe-list-table.php:93 inc/class-aoe-list-table.php:249
+msgid "Send Email"
+msgstr "Kirim Email"
+
+#: inc/class-aoe-list-table.php:103
+msgid "No abandoned order available."
+msgstr "Tidak ada Abandoned Order untuk saat ini."
+
+#: inc/class-aoe-list-table.php:113
+#, php-format
+msgid "Select %s"
+msgstr "Pilih %s"
+
+#: inc/class-aoe-list-table.php:131
+#, php-format
+msgid "<br>(recover from #%d)"
+msgstr "<br>(pemulihan dari #%d)"
+
+#: inc/class-aoe-list-table.php:214 inc/class-aoe-list-table.php:230
+msgid "Waiting"
+msgstr "Menunggu"
+
+#: inc/class-aoe-list-table.php:216 inc/class-aoe-list-table.php:232
+msgid "Not Recovered"
+msgstr "Belum Terpulihkan"
+
+#: inc/class-aoe-list-table.php:278
+#, php-format
+msgid "%1$d emails sent and %2$d failed."
+msgstr "%1$d email terkirim dan %2$d gagal."
+
+#: inc/class-aoe-mailer.php:13
+msgid ""
+"Abandoned Order Notification emails are sent when a customer places an order "
+"but never complete it."
+msgstr ""
+"Email notifikasi akan dikirim jika user melakukan pembelian namun tidak "
+"menyelesaikan pembayaran."
+
+#: inc/class-aoe-scheduler.php:61
+msgid "Every 5 minutes"
+msgstr "Setiap 5 menit"
+
+#: templates/admin/page-report.php:10
+msgid "Select date range"
+msgstr "Pilih rentang waktu"
+
+#: templates/admin/page-report.php:12
+msgid "to"
+msgstr "ke"
+
+#: templates/admin/page-report.php:19
+msgid "Please select a valid date range."
+msgstr "Harap pilih rentang waktu yang valid."
+
+#: templates/admin/page-setting.php:2
+msgid "Abandoned Order Setting"
+msgstr "Pengaturan Abandoned Order"
+
+#: templates/admin/page-setting.php:11
+msgid "General Setting"
+msgstr "Pengaturan Umum"
+
+#: templates/admin/page-setting.php:13
+msgid "Order Date Threshold (BACS)"
+msgstr "Batas waktu pembelian (BACS)"
+
+#: templates/admin/page-setting.php:17 templates/admin/page-setting.php:32
+msgid "Minute(s)"
+msgstr "Menit"
+
+#: templates/admin/page-setting.php:18 templates/admin/page-setting.php:33
+msgid "Hour(s)"
+msgstr "Jam"
+
+#: templates/admin/page-setting.php:19 templates/admin/page-setting.php:34
+msgid "Day(s)"
+msgstr "Hari"
+
+#: templates/admin/page-setting.php:20 templates/admin/page-setting.php:35
+msgid "Week(s)"
+msgstr "Minggu"
+
+#: templates/admin/page-setting.php:24
+msgid ""
+"Threshold time after the order date which categorized as an abandoned order. "
+"Only for orders with BACS payment method."
+msgstr ""
+"Batas waktu yang digunakan untuk mengkategorikan pesanan sebagai abandoned "
+"order. Hanya untuk pesanan dengan pembayaran BACS."
+
+#: templates/admin/page-setting.php:28
+msgid "Order Date Threshold (non BACS)"
+msgstr "Batas waktu pembelian (non BACS)"
+
+#: templates/admin/page-setting.php:39
+msgid ""
+"Threshold time after the order date which categorized as an abandoned order. "
+"Only for orders other than BACS payment method."
+msgstr ""
+"Batas waktu yang digunakan untuk mengkategorikan pesanan sebagai abandoned "
+"order. Hanya untuk pesanan dengan pembayaran selain BACS."
+
+#: templates/admin/page-setting.php:52
+#, php-format
+msgid "Ignore Orders with Total %s"
+msgstr "Abaikan pesanan dengan total %s"
+
+#: templates/admin/page-setting.php:57
+msgid "Ignore orders with zero order total."
+msgstr "Abaikan pesanan jika pesanan tersebut memiliki nilai 0."
+
+#: templates/admin/page-setting.php:61
+msgid "Abandoned order search starting date"
+msgstr "Tanggal mulai pencarian abandoned order"
+
+#: templates/admin/page-setting.php:66
+msgid ""
+"The plugin will only search for an abandoned order newer than the given "
+"start date."
+msgstr ""
+"Plugin hanya akan mencari abandoned order dengan tanggal pesanan setelah "
+"tanggal yang diterapkan."
+
+#: templates/admin/page-setting.php:80
+msgid "Email Setting"
+msgstr "Pengaturan Email"
+
+#: templates/admin/page-setting.php:82
+msgid "Email Heading"
+msgstr "Heading Email"
+
+#: templates/admin/page-setting.php:87
+msgid "Customer email heading."
+msgstr "Atur heading email."
+
+#: templates/admin/page-setting.php:91
+msgid "Email Subject"
+msgstr "Subjek Email"
+
+#: templates/admin/page-setting.php:96
+msgid "Customer email subject."
+msgstr "Atur subjek email."
+
+#: templates/admin/page-setting.php:101
+msgid "Email Body for Order with BACS Payment Method"
+msgstr "Isi Email untuk pesanan dengan pembayaran BACS"
+
+#: templates/admin/page-setting.php:111
+msgid ""
+"Email body for BACS payment orders. You can use these shortcodes for the "
+"content:"
+msgstr ""
+"Isi email untuk pesanan dengan metode pembayaran BACS. Anda bisa menggunakan "
+"shortcode berikut pada konten:"
+
+#: templates/admin/page-setting.php:113
+#, php-format
+msgid "%s - generates list of bank accounts."
+msgstr "%s - menampilkan daftar rekening bank."
+
+#: templates/admin/page-setting.php:114 templates/admin/page-setting.php:134
+#, php-format
+msgid "%s - generates order number."
+msgstr "%s - menampilkan nomor pesanan."
+
+#: templates/admin/page-setting.php:115 templates/admin/page-setting.php:135
+#, php-format
+msgid "%s - generates the order details table."
+msgstr "%s - menampilkan tabel pesanan."
+
+#: templates/admin/page-setting.php:116 templates/admin/page-setting.php:136
+#, php-format
+msgid "%s - generates site name."
+msgstr "%s - menampilkan nama situs."
+
+#: templates/admin/page-setting.php:122
+msgid "Email Body for Order with non-BACS Payment Method"
+msgstr "Isi Email untuk pesanan dengan pembayaran selain BACS"
+
+#: templates/admin/page-setting.php:132
+msgid ""
+"Email body for non-BACS payment orders. You can use these shortcodes for the "
+"content:"
+msgstr ""
+"Isi email untuk pesanan dengan metode pembayaran selain BACS. Anda bisa "
+"menggunakan shortcode berikut pada konten:"
+
+#: templates/admin/page-setting.php:137
+#, php-format
+msgid "%s - generates link for recover the order."
+msgstr "%s - menampilkan link untuk pemulihan pesanan."
+
+#: templates/emails/email-abandoned.php:26
+msgid "Our Bank Details"
+msgstr "Daftar Rekening Bank"
+
+#: templates/emails/email-abandoned.php:31
+msgid "Bank"
+msgstr "Bank"
+
+#: templates/emails/email-abandoned.php:34
+msgid "Account number"
+msgstr "Nomor rekening"
+
+#: templates/emails/email-abandoned.php:37
+msgid "Sort code"
+msgstr "Sort code"
+
+#: templates/emails/email-abandoned.php:40
+msgid "IBAN"
+msgstr "IBAN"
+
+#: templates/emails/email-abandoned.php:43
+msgid "BIC"
+msgstr "BIC"
+
+#. Name of the plugin
+msgid "Abandoned Order Email"
+msgstr "Abandoned Order Email"

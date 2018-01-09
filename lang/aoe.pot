@@ -1,0 +1,345 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-04 05:01+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: admin-page.php:44 inc/class-aoe-list-table.php:30
+#: templates/admin/page-dashboard.php:4 templates/admin/page-report.php:4
+#: templates/admin/page-setting.php:4
+msgid "Abandoned Orders"
+msgstr ""
+
+#: admin-page.php:44
+msgid "Orders"
+msgstr ""
+
+#: admin-page.php:45 templates/admin/page-report.php:2
+msgid "Abandoned Order Report"
+msgstr ""
+
+#: admin-page.php:45 templates/admin/page-dashboard.php:5
+#: templates/admin/page-report.php:5 templates/admin/page-setting.php:5
+msgid "Report"
+msgstr ""
+
+#: admin-page.php:46
+msgid "Abandoned Order Settings"
+msgstr ""
+
+#: admin-page.php:46 templates/admin/page-dashboard.php:6
+#: templates/admin/page-report.php:6 templates/admin/page-setting.php:6
+msgid "Settings"
+msgstr ""
+
+#: admin-page.php:56
+msgid "Orders Per Page"
+msgstr ""
+
+#: admin-page.php:120
+msgid "Settings Updated"
+msgstr ""
+
+#: admin-page.php:131
+msgid "Email sent!"
+msgstr ""
+
+#: admin-page.php:133
+msgid "Email failed to send."
+msgstr ""
+
+#: admin-page.php:142 templates/admin/page-dashboard.php:2
+msgid "Abandoned Order List"
+msgstr ""
+
+#: admin-page.php:145
+msgid "Abandoned order plugin needs Woocommerce to be active."
+msgstr ""
+
+#: inc/class-aoe-list-table.php:29 inc/class-aoe-mailer.php:12
+#: templates/admin/page-report.php:23
+msgid "Abandoned Order"
+msgstr ""
+
+#: inc/class-aoe-list-table.php:58
+msgid "Order ID"
+msgstr ""
+
+#: inc/class-aoe-list-table.php:59
+msgid "Total"
+msgstr ""
+
+#: inc/class-aoe-list-table.php:60
+msgid "Payment"
+msgstr ""
+
+#: inc/class-aoe-list-table.php:61
+msgid "User"
+msgstr ""
+
+#: inc/class-aoe-list-table.php:62
+msgid "Date"
+msgstr ""
+
+#: inc/class-aoe-list-table.php:63
+msgid "Email Sent"
+msgstr ""
+
+#: inc/class-aoe-list-table.php:64 inc/class-aoe-list-table.php:212
+#: inc/class-aoe-list-table.php:228
+msgid "Recovered"
+msgstr ""
+
+#: inc/class-aoe-list-table.php:65
+msgid "Actions"
+msgstr ""
+
+#: inc/class-aoe-list-table.php:93 inc/class-aoe-list-table.php:246
+msgid "Send Email"
+msgstr ""
+
+#: inc/class-aoe-list-table.php:103
+msgid "No abandoned order available."
+msgstr ""
+
+#: inc/class-aoe-list-table.php:113
+#, php-format
+msgid "Select %s"
+msgstr ""
+
+#: inc/class-aoe-list-table.php:131
+#, php-format
+msgid "<br>(recover from #%d)"
+msgstr ""
+
+#: inc/class-aoe-list-table.php:214 inc/class-aoe-list-table.php:230
+msgid "Waiting"
+msgstr ""
+
+#: inc/class-aoe-list-table.php:216 inc/class-aoe-list-table.php:232
+msgid "Not Recovered"
+msgstr ""
+
+#: inc/class-aoe-list-table.php:274
+#, php-format
+msgid "%1$d emails sent and %2$d failed."
+msgstr ""
+
+#: inc/class-aoe-mailer.php:13
+msgid ""
+"Abandoned Order Notification emails are sent when a customer places an order "
+"but never complete it."
+msgstr ""
+
+#: inc/class-aoe-scheduler.php:60
+msgid "Every 5 minutes"
+msgstr ""
+
+#: templates/admin/page-report.php:10
+msgid "Select date range"
+msgstr ""
+
+#: templates/admin/page-report.php:12
+msgid "to"
+msgstr ""
+
+#: templates/admin/page-report.php:19
+msgid "Please select a valid date range."
+msgstr ""
+
+#: templates/admin/page-report.php:27
+msgid "Recovered Order"
+msgstr ""
+
+#: templates/admin/page-report.php:31
+msgid "Total Recovered Order"
+msgstr ""
+
+#: templates/admin/page-setting.php:2
+msgid "Abandoned Order Setting"
+msgstr ""
+
+#: templates/admin/page-setting.php:11
+msgid "General Setting"
+msgstr ""
+
+#: templates/admin/page-setting.php:13
+msgid "Order Date Threshold (BACS)"
+msgstr ""
+
+#: templates/admin/page-setting.php:17 templates/admin/page-setting.php:32
+msgid "Minute(s)"
+msgstr ""
+
+#: templates/admin/page-setting.php:18 templates/admin/page-setting.php:33
+msgid "Hour(s)"
+msgstr ""
+
+#: templates/admin/page-setting.php:19 templates/admin/page-setting.php:34
+msgid "Day(s)"
+msgstr ""
+
+#: templates/admin/page-setting.php:20 templates/admin/page-setting.php:35
+msgid "Week(s)"
+msgstr ""
+
+#: templates/admin/page-setting.php:24
+msgid ""
+"Threshold time after the order date which categorized as an abandoned order. "
+"Only for orders with BACS payment method."
+msgstr ""
+
+#: templates/admin/page-setting.php:28
+msgid "Order Date Threshold (non BACS)"
+msgstr ""
+
+#: templates/admin/page-setting.php:39
+msgid ""
+"Threshold time after the order date which categorized as an abandoned order. "
+"Only for orders other than BACS payment method."
+msgstr ""
+
+#: templates/admin/page-setting.php:43
+msgid "Apply on Recovery Order?"
+msgstr ""
+
+#: templates/admin/page-setting.php:48
+msgid ""
+"Also categorize recovery orders as an abandoned order if the order passing "
+"the threshold."
+msgstr ""
+
+#: templates/admin/page-setting.php:52
+#, php-format
+msgid "Ignore Orders with Total %s"
+msgstr ""
+
+#: templates/admin/page-setting.php:57
+msgid "Ignore orders with zero order total."
+msgstr ""
+
+#: templates/admin/page-setting.php:61
+msgid "Abandoned order search starting date"
+msgstr ""
+
+#: templates/admin/page-setting.php:66
+msgid ""
+"The plugin will only search for an abandoned order newer than the given "
+"start date."
+msgstr ""
+
+#: templates/admin/page-setting.php:71
+msgid "Email Setting"
+msgstr ""
+
+#: templates/admin/page-setting.php:73
+msgid "Email Heading"
+msgstr ""
+
+#: templates/admin/page-setting.php:78
+msgid "Customer email heading."
+msgstr ""
+
+#: templates/admin/page-setting.php:82
+msgid "Email Subject"
+msgstr ""
+
+#: templates/admin/page-setting.php:87
+msgid "Customer email subject."
+msgstr ""
+
+#: templates/admin/page-setting.php:92
+msgid "Email Body for Order with BACS Payment Method"
+msgstr ""
+
+#: templates/admin/page-setting.php:102
+msgid ""
+"Email body for BACS payment orders. You can use these shortcodes for the "
+"content:"
+msgstr ""
+
+#: templates/admin/page-setting.php:104
+#, php-format
+msgid "%s - generates list of bank accounts."
+msgstr ""
+
+#: templates/admin/page-setting.php:105 templates/admin/page-setting.php:125
+#, php-format
+msgid "%s - generates order number."
+msgstr ""
+
+#: templates/admin/page-setting.php:106 templates/admin/page-setting.php:126
+#, php-format
+msgid "%s - generates the order details table."
+msgstr ""
+
+#: templates/admin/page-setting.php:107 templates/admin/page-setting.php:127
+#, php-format
+msgid "%s - generates site name."
+msgstr ""
+
+#: templates/admin/page-setting.php:113
+msgid "Email Body for Order with non-BACS Payment Method"
+msgstr ""
+
+#: templates/admin/page-setting.php:123
+msgid ""
+"Email body for non-BACS payment orders. You can use these shortcodes for the "
+"content:"
+msgstr ""
+
+#: templates/admin/page-setting.php:128
+#, php-format
+msgid "%s - generates link for recover the order."
+msgstr ""
+
+#: templates/emails/email-abandoned.php:26
+msgid "Our Bank Details"
+msgstr ""
+
+#: templates/emails/email-abandoned.php:31
+msgid "Bank"
+msgstr ""
+
+#: templates/emails/email-abandoned.php:34
+msgid "Account number"
+msgstr ""
+
+#: templates/emails/email-abandoned.php:37
+msgid "Sort code"
+msgstr ""
+
+#: templates/emails/email-abandoned.php:40
+msgid "IBAN"
+msgstr ""
+
+#: templates/emails/email-abandoned.php:43
+msgid "BIC"
+msgstr ""
+
+#. Name of the plugin
+msgid "Abandoned Order Email"
+msgstr ""
+
+#. Description of the plugin
+msgid "Send abandoned order follow up email"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://www.tonjoostudio.com/"
+msgstr ""
+
+#. Author of the plugin
+msgid "tonjoo"
+msgstr ""
